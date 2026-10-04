@@ -1,12 +1,3 @@
-# Detection de la pollution plastique par segmentation d'images de drone
+Données préparées (version v1) : https://drive.google.com/file/d/19oWZW_8IwgPeTs75ljFbI8bSddHyxGTc/view?usp=sharing
 
-## Installation
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-
-## Parametres figes
-Graine 42, taille 512x512, decoupage 70/15/15.
-
-## Donnees
-Lien de partage : (a completer a l'etape E1-14)
+Décompresser l'archive dans `data/` pour obtenir `data/processed/` et `data/splits/`, puis lancer `python scripts/check_data.py` (doit afficher « TOUT EST OK »).
